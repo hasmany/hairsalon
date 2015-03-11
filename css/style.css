@@ -404,6 +404,28 @@ a:visited {
 /* close commented backslash hack */
 
 
+/*## ABOUT STYLES ##*/
+
+.main-about {
+	background-color: #ededed;
+}
+
+.main-about > div:first-of-type {
+	/*width: 960px;*/
+	width: 96%;
+	padding-top: 45px;
+	/*font-size: 18px;*/
+	font-size: 1.125em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-about div, .main-about div h3 {
+	padding-bottom: 45px;
+	line-height: 25px;
+}
+
+
 /*###################*/
 /*## MEDIA QUERIES ##*/
 /*###################*/
@@ -444,13 +466,6 @@ a:visited {
 		font-size: .95em;
 	}
 }
-
-
-/*@media screen and (max-width: 1190px){
-	.main-header ul li {
-		font-size: .95em;
-	}
-}*/
 
 @media screen and (max-width: 1110px) {
 	.main-header ul li {
