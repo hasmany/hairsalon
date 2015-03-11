@@ -403,9 +403,9 @@ a:visited {
 .clearfix { display: block; }
 /* close commented backslash hack */
 
-
+/*##################*/
 /*## ABOUT STYLES ##*/
-
+/*##################*/
 .main-about {
 	background-color: #ededed;
 }
@@ -425,6 +425,48 @@ a:visited {
 	line-height: 25px;
 }
 
+/*##################*/
+/*## HAIR STYLES ##*/
+/*##################*/
+
+.main-hairstyle {
+	padding-top: 25px;
+	background-color: #ededed;
+}
+
+.main-hairstyle img {
+	width: 100%;
+	max-width: 100%;
+}
+
+.main-hairstyle > div:first-of-type {
+	/*width: 960px;*/
+	width: 96%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family:Arial;
+}
+
+.main-hairstyle > div div {
+	display: inline-block;
+	/*width: 210px;*/
+	width: 21.8755%;
+	/*margin-right: 30px;*/
+	margin-right: 3.125%;
+}
+
+.main-hairstyle .hairstyle-medium {
+	display: inline;
+}
+
+.main-hairstyle > div > section, .main-hairstyle h3 {
+	display: block;
+	padding-bottom: 25px;
+}
+
+.main-hairstyle .hairstyle-large section:nth-of-type(2) div:last-of-type {
+	margin-right: 0px;
+}
 
 /*###################*/
 /*## MEDIA QUERIES ##*/
@@ -552,6 +594,29 @@ a:visited {
 
 	.main-bottom-right > div:nth-of-type(2) div:nth-of-type(2) {
 		font-size: 2em;
+	}
+
+	
+}
+
+@media screen and (max-width: 995px) {
+
+	.main-hairstyle > div div {
+		display: inline-block;
+		/*width: 210px;*/
+		width: 43.7%;
+		/*margin-right: 30px;*/
+		/*margin-right: 3.125%;*/
+		margin-right: 8.25%;
+		margin-bottom: 25px;
+	}
+
+	.main-hairstyle	.hairstyle-medium {
+		display: block;
+	}
+
+	.main-hairstyle .hairstyle-medium div:last-of-type {
+		margin-right: 0px;
 	}
 }
 
