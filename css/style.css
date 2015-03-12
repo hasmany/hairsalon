@@ -469,6 +469,21 @@ a:visited {
 }
 
 /*###################*/
+/*##  NEWS STYLES  ##*/
+/*###################*/
+
+.main-news {
+	padding-top: 25px;
+	background-color: #ededed;
+}
+
+.main-news > div:first-child {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*###################*/
 /*## MEDIA QUERIES ##*/
 /*###################*/
 
