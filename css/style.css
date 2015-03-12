@@ -475,6 +475,8 @@ a:visited {
 .main-news {
 	padding-top: 25px;
 	padding-bottom: 25px;
+	min-height: 600px;
+	height: 100%;
 	background-color: #ededed;
 	font-family: Arial;
 }
@@ -532,6 +534,35 @@ a:visited {
 .main-news > div > div:nth-of-type(2) div:nth-of-type(3) h3,
 .main-news > div > div:nth-of-type(2) div:nth-of-type(4) h3 {
 	margin-bottom: 10px;
+}
+
+/*#####################*/
+/*##  CONTACT STYLES ##*/
+/*#####################*/
+
+.main-contact {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	min-height: 600px;
+	height: 100%;
+	background-color: #ededed;
+	font-family: Arial;
+}
+
+.main-contact span {
+	font-weight: bold;
+}
+
+.main-contact > div:first-child {
+	/*width: 960px;*/
+	width: 96%;
+	line-height: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-contact > div > div {
+	margin-bottom: 25px;
 }
 
 /*###################*/
